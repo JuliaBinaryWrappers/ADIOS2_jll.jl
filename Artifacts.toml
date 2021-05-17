@@ -1,0 +1,100 @@
+[[ADIOS2]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "db3657fc35c6f150c09585bbb736657feee7f391"
+libc = "glibc"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "5581485f46d354ce5a843589ee0dd2585ff875638fb0e44d36528a7469b980e9"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.aarch64-linux-gnu-cxx03.tar.gz"
+[[ADIOS2]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "73be850b1ceac0b0b8b9666bfc168a0574644325"
+libc = "glibc"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "b1c74932f6f4ecf3209a566c1d9a6856d767b12d3edc29fce436bd147b86c66d"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[ADIOS2]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "3d61397048e81ef0f016cb0e9e772212707e5957"
+libc = "musl"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "c36888a34ded1164b032073dd99bdd277cbf4ff97614df183dec247196f02018"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.aarch64-linux-musl-cxx03.tar.gz"
+[[ADIOS2]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "78089859960a5616818098c5b9903918594846b2"
+libc = "musl"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "d7625d11cd56fa33790a15cc004285cb480fbd527929b95d543e91c89ed31edb"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.aarch64-linux-musl-cxx11.tar.gz"
+[[ADIOS2]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "dd533ea7ccb5f7959ced8152fdcf05f008ea921b"
+libc = "glibc"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "daf1fc71d1dfb82554882d7e3052ca874404275d672c3015a596df07f5d23c34"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[ADIOS2]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4aff0230155e213f47b49f745213c7d4d00b22dd"
+libc = "glibc"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "5dc8b189dc433c98a038aebebb8de286330b3b255ed29c5fdec1b8416c87a0db"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[ADIOS2]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d543248c859b9277c67fecd31911e0e5bf35dc6c"
+libc = "glibc"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "ef02df3831272ad96f87a6941a8a190c9640abf10bb5a0cc4368bbf0dc42a906"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.x86_64-linux-gnu-cxx03.tar.gz"
+[[ADIOS2]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c86eea5b9825da8dee641f3c9b310bb31b9ceb4c"
+libc = "glibc"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "0982bf7e21a21227d4455233586ef3eabcaddd7e40c8119c86ae0dddc4f2d228"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[ADIOS2]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8ce46c79a6288305370d44d6cfcbdb88375c9895"
+libc = "musl"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "3b0c167e7f961e799bdf5c841152a9c89fc4e2bb2712938d9809d766b9876ccd"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.x86_64-linux-musl-cxx03.tar.gz"
+[[ADIOS2]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "45d0b3c877f4de81fc0cec7bbee620eb62d013e9"
+libc = "musl"
+os = "linux"
+
+    [[ADIOS2.download]]
+    sha256 = "4a8bddb75bcb125b6781f34b3a4c994f8549cc2879488ee0f6c9fdf0e66ce9ed"
+    url = "https://github.com/JuliaBinaryWrappers/ADIOS2_jll.jl/releases/download/ADIOS2-v2.7.1+0/ADIOS2.v2.7.1.x86_64-linux-musl-cxx11.tar.gz"
