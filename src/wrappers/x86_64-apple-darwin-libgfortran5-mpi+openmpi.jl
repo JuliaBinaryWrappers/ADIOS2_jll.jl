@@ -21,37 +21,37 @@ function __init__()
     JLLWrappers.@generate_init_header(Blosc_jll, Bzip2_jll, CompilerSupportLibraries_jll, ZeroMQ_jll, libpng_jll, zfp_jll, OpenMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libadios2_c,
-        "lib/libadios2_c.2.8.0.dylib",
+        "lib/libadios2_c.2.8.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_c_mpi,
-        "lib/libadios2_c_mpi.2.8.0.dylib",
+        "lib/libadios2_c_mpi.2.8.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_core,
-        "lib/libadios2_core.2.8.0.dylib",
+        "lib/libadios2_core.2.8.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_core_mpi,
-        "lib/libadios2_core_mpi.2.8.0.dylib",
+        "lib/libadios2_core_mpi.2.8.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_cxx11,
-        "lib/libadios2_cxx11.2.8.0.dylib",
+        "lib/libadios2_cxx11.2.8.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_cxx11_mpi,
-        "lib/libadios2_cxx11_mpi.2.8.0.dylib",
+        "lib/libadios2_cxx11_mpi.2.8.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
