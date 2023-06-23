@@ -1,6 +1,6 @@
 name = "ADIOS2_jll"
 uuid = "44b1415a-b224-5c99-9168-ff4febb5f37f"
-version = "2.9.1+0"
+version = "2.9.1+1"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
@@ -27,5 +27,6 @@ JLLWrappers = "1.4.0"
 julia = "1.6"
 MPIPreferences = "0.1"
 Bzip2_jll = "1.0.8"
+zfp_jll = "1"
 MPItrampoline_jll = "5.3.0"
 HDF5_jll = "~1.14"
