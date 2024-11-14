@@ -7,6 +7,7 @@ using CompilerSupportLibraries_jll
 using HDF5_jll
 using ZeroMQ_jll
 using libpng_jll
+using protoc_jll
 using pugixml_jll
 using yaml_cpp_jll
 using zfp_jll
@@ -20,40 +21,40 @@ JLLWrappers.@declare_library_product(libadios2_cxx11, "@rpath/libadios2_cxx11.2.
 JLLWrappers.@declare_library_product(libadios2_cxx11_mpi, "@rpath/libadios2_cxx11_mpi.2.10.dylib")
 JLLWrappers.@declare_executable_product(bpls)
 function __init__()
-    JLLWrappers.@generate_init_header(Blosc2_jll, Bzip2_jll, CompilerSupportLibraries_jll, HDF5_jll, ZeroMQ_jll, libpng_jll, pugixml_jll, yaml_cpp_jll, zfp_jll, MPICH_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(Blosc2_jll, Bzip2_jll, CompilerSupportLibraries_jll, HDF5_jll, ZeroMQ_jll, libpng_jll, protoc_jll, pugixml_jll, yaml_cpp_jll, zfp_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libadios2_c,
-        "lib/libadios2_c.2.10.1.dylib",
+        "lib/libadios2_c.2.10.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_c_mpi,
-        "lib/libadios2_c_mpi.2.10.1.dylib",
+        "lib/libadios2_c_mpi.2.10.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_core,
-        "lib/libadios2_core.2.10.1.dylib",
+        "lib/libadios2_core.2.10.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_core_mpi,
-        "lib/libadios2_core_mpi.2.10.1.dylib",
+        "lib/libadios2_core_mpi.2.10.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_cxx11,
-        "lib/libadios2_cxx11.2.10.1.dylib",
+        "lib/libadios2_cxx11.2.10.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libadios2_cxx11_mpi,
-        "lib/libadios2_cxx11_mpi.2.10.1.dylib",
+        "lib/libadios2_cxx11_mpi.2.10.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
