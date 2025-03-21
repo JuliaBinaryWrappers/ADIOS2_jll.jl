@@ -4,8 +4,10 @@ export bpls, libadios2_c, libadios2_c_mpi, libadios2_core, libadios2_core_mpi, l
 using Blosc2_jll
 using Bzip2_jll
 using CompilerSupportLibraries_jll
+using Libffi_jll
 using ZeroMQ_jll
 using libpng_jll
+using nlohmann_json_jll
 using protoc_jll
 using pugixml_jll
 using yaml_cpp_jll
@@ -20,7 +22,7 @@ JLLWrappers.@declare_library_product(libadios2_cxx11, "libadios2_cxx11.dll")
 JLLWrappers.@declare_library_product(libadios2_cxx11_mpi, "libadios2_cxx11_mpi.dll")
 JLLWrappers.@declare_executable_product(bpls)
 function __init__()
-    JLLWrappers.@generate_init_header(Blosc2_jll, Bzip2_jll, CompilerSupportLibraries_jll, ZeroMQ_jll, libpng_jll, protoc_jll, pugixml_jll, yaml_cpp_jll, zfp_jll, MicrosoftMPI_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(Blosc2_jll, Bzip2_jll, CompilerSupportLibraries_jll, Libffi_jll, ZeroMQ_jll, libpng_jll, nlohmann_json_jll, protoc_jll, pugixml_jll, yaml_cpp_jll, zfp_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libadios2_c,
         "bin\\libadios2_c.dll",
